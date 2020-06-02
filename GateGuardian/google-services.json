@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "308491852194",
+    "firebase_url": "https://gate-guardian-d5416.firebaseio.com",
+    "project_id": "gate-guardian-d5416",
+    "storage_bucket": "gate-guardian-d5416.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308491852194:android:4ce9223c67e960cddabafb",
+        "android_client_info": {
+          "package_name": "GateGuardianWebInterface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308491852194-92gu51stq7prgjm8m8gccdl9dirdh7c8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "GateGuardianWebInterface",
+            "certificate_hash": "9affe59055f77392eb1286bb2d6109de1ee59e94"
+          }
+        },
+        {
+          "client_id": "308491852194-t2p3lf9tl79g16at679vbccc0bul0qqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASwtX5CBh_zrW3vt5Sh54yuirilBVp42Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308491852194-t2p3lf9tl79g16at679vbccc0bul0qqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
