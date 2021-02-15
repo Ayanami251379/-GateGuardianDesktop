@@ -105,7 +105,7 @@ Public Class ScanLogForm
     Private Sub btnExport_Click(sender As Object, e As EventArgs) Handles btnExport.Click
         Dim sfd As New SaveFileDialog
 
-        sfd.Filter = "Comma-Seperated Value File|*.csv"
+        sfd.Filter = "Comma Seperated Value File|*.csv|Microsoft Excel Worksheet|.xlsx"
         sfd.FileName = String.Format("ScanData_{0:yyyyMMddHHmmss}.csv", Now)
         sfd.InitialDirectory = Application.StartupPath
 
@@ -121,6 +121,7 @@ Public Class ScanLogForm
             End Select
 
             ExportFile.CreateFile(fileName)
+            ExportFile.MakeScanEntryExport()
 
             For Each entry As ScanEntry In GlScanEntries
                 ExportFile.AppendScanEntry(entry)
